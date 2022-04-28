@@ -21,3 +21,9 @@ function reset()
     numbers3.value ="";
     shipping.checked =false;
 }
+
+function valid()
+{
+	//I could not get validation to work correctly so I decided to make an alert box to tell the user how to input the right combination
+	alert("Please select everything in the item box and give it an amount and 1 option from shipping to make this work);
+}

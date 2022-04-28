@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="myStyle.css">
+		<script type="text/javascript" src = "formChecker.js"> </script>
+        <title>Web Store</title>
+    </head>
+    <body>
+       <form onsubmit= "valid(); return false;" action= "customerBackend.php" method="POST"> 
+        <div>
+            Username: <input type= "text" name = "username" id ="userName"><br>
+            Password: <input type= "text" name = "password" id ="passWord"><br>
+        </div>
+        <input type="radio" value = "59.99"  name = "product1" id = "product1"> Item 1: Final Fantasy 7 Remake <span style= "color:orange"> $59.99 </span> Amount: <input type="text" name= "amount1" id = "amount1"> <br>
+        <input type="radio" value = "219.99" name = "product2" id = "product2"> Item 2: Fat Cat Plush <span style= "color:orange"> $219.99 </span> Amount: <input type="text" name= "amount2" id = "amount2"><br>
+        <input type="radio" value = "5.99" name = "product3" id = "product3"> Item 3: Head Massager <span style= "color:orange"> $5.99 </span> Amount: <input type="text" name= "amount3"id = "amount3"><br>
+
+        <div>
+    Shipping Type:<br>
+    <input type="radio" value="Free" name="shipping" id="shipping"> 7 Days: Free<br>
+    <input type="radio" value="3 Days" name="shipping" id="shipping"> 3 Days: $5.00<br>
+    <input type="radio" value="Overnight" name="shipping" id="shipping"> Overnight: $50.00<br>
+</div>
+<button type = "button" onclick="reset()" class="buttons"> Reset </button>
+<input type="submit" class="buttons">
+</form>
+    </body>
+   
+</html>

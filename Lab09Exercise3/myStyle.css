@@ -1,0 +1,26 @@
+body
+{
+    background-color: aquamarine;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttons
+{
+    background-color: white;
+    border-radius: 5px;
+    border-color: beige;
+}
+.buttons:hover
+{
+    background-color: blue;
+    color: orange;
+}
+table
+{
+	padding-top: 30px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: left; 
+	font-size: 12pt;
+	font-family: 'Times New Roman', Times, serif;
+}
